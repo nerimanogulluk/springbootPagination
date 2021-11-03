@@ -21,4 +21,9 @@ public class SehirlerService implements ISehirlerService {
 
         return sehirlerPage.toList();
     }
+
+    //Bu sınıf içerisindeki metodumuzda gelecek verinin hangi sayfa
+    // sayısından kaç adet veri geleceğini yani pagination işleminin
+    // yapıldığı yer. Hangi sayfadan kaç adet veri geleceğini tabiki
+    // biz rest api endpointimizden göndereceğiz.
 }
